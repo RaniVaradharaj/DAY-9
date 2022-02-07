@@ -14,11 +14,9 @@ request.onload = function(){
               })
     }
     else{
-            console.log("Onload Error:"
-            "Oops! Your script processing out of FrameWork!");
+            console.log("Onload Error: Oops! Your script processing out of FrameWork!");
     }
 }
 request.onerror=function(){
-    console.log("Onerror Error:"
-    "Oops! There wass an error while loading Content");
+    console.log("Onerror Error: Oops! There wass an error while loading Content");
 }
