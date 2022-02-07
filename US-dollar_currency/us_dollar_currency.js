@@ -11,7 +11,7 @@ request.onload = function(){
               .filter((e)=> e.currencies.USD)
               .map((e)=>{
                 SNo++;
-                console.log(SNo + ' . ' + e.name.official)
+                console.log(SNo + '. ' + e.name.official)
                 console.log("   CURRENCIES : " + Object.keys(e.currencies));
                })
     }
